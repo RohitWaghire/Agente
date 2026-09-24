@@ -1,0 +1,11 @@
+[package]
+name = "tui-spike"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+crossterm = "0.29"
+
+[profile.dev]
+opt-level = 1
